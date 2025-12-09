@@ -1,0 +1,35 @@
+import streamlit as st
+
+def run():
+    st.header("🐍 Dzień 1 – Zmienne i typy danych")
+
+    st.markdown("""
+    Witaj w pierwszym dniu nauki Pythona! Dzisiaj poznasz podstawy tworzenia zmiennych i pracy z danymi.
+    """)
+
+    code = '''nazwa = "Pszenica ozima"
+masa = 25.5
+jakosc = "wysoka"
+
+print("Partia:", nazwa)
+print("Masa:", masa)
+print("Jakość:", jakosc)
+'''
+    st.code(code, language="python")
+
+    masa = st.text_input("Podaj masę (np. 18.5):", "")
+    jakosc = st.text_input("Podaj jakość:", "")
+
+    if st.button("💡 Uruchom kod"):
+        try:
+            m = float(masa)
+            st.success(f"✅ Dane partii: {m} kg, jakość: {jakosc}")
+        except:
+            st.error("❌ Podaj poprawną liczbę dla masy!")
+
+    st.subheader("Quiz")
+    q = st.radio("Jaki typ danych przechowuje liczby dziesiętne?", ["str", "int", "float"])
+    if q == "float":
+        st.success("Poprawnie!")
+    elif q:
+        st.error("Spróbuj jeszcze raz!")
