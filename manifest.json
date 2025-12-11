@@ -1,4 +1,84 @@
 {
-  "latest_version": "1.0.0",
-  "available_lessons": 5
+  "course_name": "Python dla Rolnictwa",
+  "version": "1.7.0",
+  "release_date": "2024-01-15",
+  "author": "Kurs Python - Automatyzacja",
+  "description": "Kurs automatyzacji w rolnictwie z Pythonem",
+  "new_lessons": [
+    {
+      "title": "Dzień 6 - Bazy danych SQL",
+      "description": "Praca z bazami danych, przechowywanie danych o plonach",
+      "level": "intermediate"
+    },
+    {
+      "title": "Dzień 7 - Wizualizacja danych",
+      "description": "Tworzenie wykresów i dashboardów rolniczych",
+      "level": "advanced"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "lesson1",
+      "title": "Dzień 1 – Zmienne i typy danych",
+      "file": "lesson1.py",
+      "level": "beginner",
+      "duration_min": 45,
+      "quiz_count": 5,
+      "exercises_count": 3
+    },
+    {
+      "id": "lesson2",
+      "title": "Dzień 2 – Operacje i warunki",
+      "file": "lesson2.py",
+      "level": "beginner",
+      "duration_min": 60,
+      "quiz_count": 6,
+      "exercises_count": 4
+    },
+    {
+      "id": "lesson3",
+      "title": "Dzień 3 – Pętle i analiza danych",
+      "file": "lesson3.py",
+      "level": "beginner",
+      "duration_min": 75,
+      "quiz_count": 7,
+      "exercises_count": 5
+    },
+    {
+      "id": "lesson4",
+      "title": "Dzień 4 – Funkcje i modularność",
+      "file": "lesson4.py",
+      "level": "intermediate",
+      "duration_min": 90,
+      "quiz_count": 8,
+      "exercises_count": 6
+    },
+    {
+      "id": "lesson5",
+      "title": "Dzień 5 – Pliki i raporty",
+      "file": "lesson5.py",
+      "level": "intermediate",
+      "duration_min": 105,
+      "quiz_count": 9,
+      "exercises_count": 7
+    },
+    {
+      "id": "lesson6",
+      "title": "Dzień 6 – Bazy danych SQL",
+      "file": "lesson6.py",
+      "level": "intermediate",
+      "duration_min": 120,
+      "quiz_count": 10,
+      "exercises_count": 8
+    },
+    {
+      "id": "lesson7",
+      "title": "Dzień 7 – Wizualizacje danych",
+      "file": "lesson7.py",
+      "level": "advanced",
+      "duration_min": 150,
+      "quiz_count": 12,
+      "exercises_count": 10
+    }
+  ]
 }
