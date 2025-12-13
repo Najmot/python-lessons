@@ -4,6 +4,7 @@
   "release_date": "2024-01-15",
   "author": "Kurs Python - Automatyzacja",
   "description": "Kurs automatyzacji w rolnictwie z Pythonem",
+  
   "new_lessons": [
     {
       "title": "Dzień 6 - Bazy danych SQL",
@@ -16,6 +17,7 @@
       "level": "advanced"
     }
   ],
+  
   "lessons": [
     {
       "id": "lesson1",
