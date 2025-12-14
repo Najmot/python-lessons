@@ -1,86 +1,81 @@
 {
-  "course_name": "Python dla Rolnictwa",
-  "version": "1.7.0",
-  "release_date": "2024-01-15",
+  "course_name": "Python dla Rolnictwa - Wersja Premium",
+  "version": "2.0.0",
+  "release_date": "2024-12-13",
   "author": "Kurs Python - Automatyzacja",
-  "description": "Kurs automatyzacji w rolnictwie z Pythonem",
+  "description": "Zaawansowany kurs z ćwiczeniami w stylu Corey Schafer, Jose Portilla i ArjanCodes",
   
   "new_lessons": [
     {
-      "title": "Dzień 6 - Bazy danych SQL",
-      "description": "Praca z bazami danych, przechowywanie danych o plonach",
-      "level": "intermediate"
-    },
-    {
-      "title": "Dzień 7 - Wizualizacja danych",
-      "description": "Tworzenie wykresów i dashboardów rolniczych",
-      "level": "advanced"
+      "title": "Wszystkie lekcje - nowa wersja",
+      "description": "Kompletne przepisanie z więcej ćwiczeń, testów i projektów",
+      "level": "all"
     }
   ],
   
   "lessons": [
     {
       "id": "lesson1",
-      "title": "Dzień 1 – Zmienne i typy danych",
+      "title": "Dzień 1 – Zmienne, typy i operacje",
       "file": "lesson1.py",
       "level": "beginner",
-      "duration_min": 45,
-      "quiz_count": 5,
-      "exercises_count": 3
+      "duration_min": 60,
+      "quiz_count": 8,
+      "exercises_count": 5
     },
     {
       "id": "lesson2",
-      "title": "Dzień 2 – Operacje i warunki",
+      "title": "Dzień 2 – Struktury danych i funkcje",
       "file": "lesson2.py",
       "level": "beginner",
-      "duration_min": 60,
-      "quiz_count": 6,
-      "exercises_count": 4
+      "duration_min": 75,
+      "quiz_count": 10,
+      "exercises_count": 6
     },
     {
       "id": "lesson3",
       "title": "Dzień 3 – Pętle i analiza danych",
       "file": "lesson3.py",
       "level": "beginner",
-      "duration_min": 75,
-      "quiz_count": 7,
-      "exercises_count": 5
+      "duration_min": 90,
+      "quiz_count": 12,
+      "exercises_count": 7
     },
     {
       "id": "lesson4",
-      "title": "Dzień 4 – Funkcje i modularność",
+      "title": "Dzień 4 – Funkcje zaawansowane i OOP",
       "file": "lesson4.py",
       "level": "intermediate",
-      "duration_min": 90,
-      "quiz_count": 8,
-      "exercises_count": 6
+      "duration_min": 120,
+      "quiz_count": 15,
+      "exercises_count": 8
     },
     {
       "id": "lesson5",
-      "title": "Dzień 5 – Pliki i raporty",
+      "title": "Dzień 5 – Pliki, wyjątki i logi",
       "file": "lesson5.py",
       "level": "intermediate",
-      "duration_min": 105,
-      "quiz_count": 9,
-      "exercises_count": 7
+      "duration_min": 150,
+      "quiz_count": 18,
+      "exercises_count": 9
     },
     {
       "id": "lesson6",
       "title": "Dzień 6 – Bazy danych SQL",
       "file": "lesson6.py",
       "level": "intermediate",
-      "duration_min": 120,
-      "quiz_count": 10,
-      "exercises_count": 8
+      "duration_min": 180,
+      "quiz_count": 20,
+      "exercises_count": 10
     },
     {
       "id": "lesson7",
-      "title": "Dzień 7 – Wizualizacje danych",
+      "title": "Dzień 7 – Wizualizacje i deployment",
       "file": "lesson7.py",
       "level": "advanced",
-      "duration_min": 150,
-      "quiz_count": 12,
-      "exercises_count": 10
+      "duration_min": 210,
+      "quiz_count": 25,
+      "exercises_count": 12
     }
   ]
 }
